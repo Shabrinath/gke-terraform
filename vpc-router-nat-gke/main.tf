@@ -24,11 +24,11 @@ module "vpc" {
         custom-subnet-01 = [
             {
                 range_name    = "pods-range"
-                ip_cidr_range = "10.10.0.0/24"
+                ip_cidr_range = "10.1.0.0/16"
             },
             {
                 range_name    = "services-range"
-                ip_cidr_range = "10.20.0.0/24"
+                ip_cidr_range = "10.2.0.0/16"
             },
         ]
 
